@@ -1,6 +1,10 @@
 #CodeGuide
+
+
 principles or guidance for writing good code that OOP student can apply.
-=====
+
+
+
 ###In public class use accessor methods
 While creating a class, do not write a class like this
 ```

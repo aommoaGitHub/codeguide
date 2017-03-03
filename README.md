@@ -1,4 +1,5 @@
 #CodeGuide
+
 principles or guidance for writing good code that OOP student can apply.
 =====
 ###In public class use accessor methods
@@ -72,6 +73,6 @@ Public interface AtomConstant {
 ```
 Imagine that you have 'A' class implement AtomConstant and you have 'B' class extends the 'A' class. So both A and B can use constants in AtomConstant although only A has to use these constants. This makes confusing and pollute name spaces in memory.
 
-Exercise: []()
+Exercise: [Triangular](https://github.com/aommoaGitHub/codeguide/blob/master/src/codeguide/Triangular.java) class implements [Shape](https://github.com/aommoaGitHub/codeguide/blob/master/src/codeguide/Shape.java) interface and [Point](https://github.com/aommoaGitHub/codeguide/blob/master/src/codeguide/Point.java) class is used.
 
 Reference: [Effective Java Chapter 4 Item:19](http://www.ebooksbucket.com/uploads/itprogramming/java/Effective_Java_2nd_Edition.pdf), Joshua Bloch, Second Edition.
